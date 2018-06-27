@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{706402d4-729f-466e-8648-9d5359a08878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="docs\MySqlTransaction.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlParameterCollection.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlParameter.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlHelper.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlException.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlDataReader.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlDataAdapter.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlConnectionStringBuilder.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlConnection.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlCommandBuilder.xml">
+      <Filter>docs</Filter>
+    </Xml>
+    <Xml Include="docs\MySqlCommand.xml">
+      <Filter>docs</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

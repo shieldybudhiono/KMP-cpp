@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+d:\vs practice\project1\project1\MyForm.h(208): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+d:\vs practice\project1\project1\MyForm.h(213): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+d:\vs practice\project1\project1\MyForm.h(199): warning C4101: 'result': unreferenced local variable
+d:\vs practice\project1\project1\MyForm.h(264): warning C4101: 'myReader': unreferenced local variable
+MyForm.cpp(7): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Project1.vcxproj -> D:\VS practice\Project1\Debug\Project1.exe
